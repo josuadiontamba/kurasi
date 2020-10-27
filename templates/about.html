@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input | MAMA</title>
+    <link rel="stylesheet" type="text/css" href="{% static "vendor/bootstrap/bootstrap.css" %} ">
+</head>
+<body>
+    <nav class="site-header sticky-top py-1 bg-dark">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+          <a class="py-2" >
+            <img style="height:30px" src="{% static "img/logo.png" %}" alt="">
+          </a>
+          <a class="py-2 d-none d-md-inline-block" href="/">Home</a>
+          <a class="py-2 d-none d-md-inline-block" href="/input/">Input</a>
+          <a class="py-2 d-none d-md-inline-block" href="/about/">About</a>
+        </div>
+      </nav>    
+
+      <div class="jumbotron jumbotron-fluid bg-gray">
+        <div class="container text-black text-center">
+          <h1 class="display-4">Selamat datang di website MAMA</h1>
+          <h3 class="display-5">Terimakasih atas kontribusi anda.</h3>
+        </div>
+      </div>      
+    <script src="{$ static "vendor/popper/popper.js" %}" type="text/javascript"></script>
+    <script src="{$ static "vendor/jquery/jquery.js" %}" type="text/javascript"></script>
+    <script src="{$ static "vendor/bootstrap/bootstrap.js" %}" type="text/javascript"></script>    
+</body>
+</html>
